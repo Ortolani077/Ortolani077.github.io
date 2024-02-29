@@ -29,7 +29,7 @@ body {
 }
 
 .nft {
-    width: 95%; /* Aumentando a largura para ocupar 95% da largura do contêiner pai */
+    width: 150%; /* Aumentando a largura para ocupar 95% da largura do contêiner pai */
     max-width: 400px; /* Definindo uma largura máxima para garantir que o conteúdo não se espalhe demais */
     margin: 1rem auto; /* Margem vertical de 1rem e centralizando horizontalmente */
     padding: 2rem; /* Adicionando preenchimento interno para o conteúdo */
@@ -46,7 +46,7 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -255,7 +255,7 @@ body {
     max-width: 250px;
     margin: 0 auto;
     margin-left: 650px; /* Mover os ícones um pouco para a esquerda */
-    margin-top: -465px; 
+    
 }
 
 .icon {
@@ -339,7 +339,7 @@ body {
 .icon--instagram a {
     background: url('https://benhodgson.net/img/social/instagram.svg') no-repeat;
     background-size: 40px; /* Definindo o tamanho do ícone */
-    width: 42px; /* Definindo o tamanho do contêiner */
+    width: 40px; /* Definindo o tamanho do contêiner */
     height: 40px; /* Definindo o tamanho do contêiner */
 }
 
