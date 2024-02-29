@@ -254,7 +254,8 @@ body {
 .social-icons {
     max-width: 250px;
     margin: 0 auto;
-    margin-left: -20px; /* Mover os ícones um pouco para a esquerda */
+    margin-left: 650px; /* Mover os ícones um pouco para a esquerda */
+    margin-top: -465px; 
 }
 
 .icon {
@@ -338,7 +339,7 @@ body {
 .icon--instagram a {
     background: url('https://benhodgson.net/img/social/instagram.svg') no-repeat;
     background-size: 40px; /* Definindo o tamanho do ícone */
-    width: 40px; /* Definindo o tamanho do contêiner */
+    width: 42px; /* Definindo o tamanho do contêiner */
     height: 40px; /* Definindo o tamanho do contêiner */
 }
 
