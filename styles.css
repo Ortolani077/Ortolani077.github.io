@@ -30,7 +30,7 @@ body {
 
 .nft {
     width: 150%; /* Aumentando a largura para ocupar 95% da largura do contêiner pai */
-    max-width: 400px; /* Definindo uma largura máxima para garantir que o conteúdo não se espalhe demais */
+    max-width: 500px; /* Definindo uma largura máxima para garantir que o conteúdo não se espalhe demais */
     margin: 1rem auto; /* Margem vertical de 1rem e centralizando horizontalmente */
     padding: 2rem; /* Adicionando preenchimento interno para o conteúdo */
     border: 1px solid #065656; /* Adicionando uma borda para destacar o elemento */
