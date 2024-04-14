@@ -182,6 +182,7 @@ nav .nav-wrapper {
     background-image: 
     background-size: cover;
     background-position: center;
+    transform: translateX(-50%);
     background-repeat: no-repeat;
 }
 
