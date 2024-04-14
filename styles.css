@@ -178,16 +178,16 @@ nav .nav-wrapper {
 
 #collapseWhoWeAre {
     top: 40%;
-    left: 30%;
-    background-image: url('caminho/para/sua/imagem-de-fundo.jpg');
+    left: 50%;
+    background-image: 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #collapseOurServices {
-    top: 20%;
-    left: 30%;
+    top: 40%;
+    left: 50%;
     transform: translateX(-50%);
 }
 
