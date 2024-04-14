@@ -8,6 +8,7 @@ body {
     height: 100vh;
     font-family: 'Lato', sans-serif;
     background-position-y: 30%;
+    position: relative; 
 }
 
 a[href="index.html"] {
@@ -180,16 +181,18 @@ nav .nav-wrapper {
     top: 40%;
     left: 50%;
     background-image: 
-    background-size: cover;
-    background-position: center;
-    transform: translateX(-50%);
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    transform:translateX(-50%);
+    position: fixed;
 }
 
 #collapseOurServices {
     top: 40%;
     left: 50%;
     transform: translateX(-50%);
+       position: fixed;
 }
 
 #collapseAnother {
@@ -198,28 +201,23 @@ nav .nav-wrapper {
 }
 
 .expanded-content,
-.custom-collapse {
-    position: fixed;
-    background-color: #ffffff;
+.custom-collapse.expanded-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Certifique-se de que o conteúdo expandível esteja acima dos botões */
+    background-color: rgba(255, 255, 255, 0.9); /* Adicione um fundo translúcido */
     padding: 60px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 850px;
+    max-width: 700px;
     max-height: 80vh;
     overflow-y: auto;
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Centraliza completamente */
-    margin: 0 auto; /* Remove a margem adicional */
 }
 
-
-.custom-collapse {
-    width: 120%;
-}
-
-.expanded-content img {
+.custom-collapse.expanded-content img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -228,6 +226,9 @@ nav .nav-wrapper {
 .social-icons {
     max-width: 250px;
     margin: 0 auto;
+    position: relative; /* Adicione posição relativa para os ícones ficarem no lugar certo */
+    z-index: 999; /* Certifique-se de que os ícones estejam acima do conteúdo do colapso */
+    bottom: 675px; 
 }
 
 .icon {
@@ -275,15 +276,15 @@ nav .nav-wrapper {
     width: 100%;
     margin-top: -7px;
     color: #fff;
-    font-size: 10px;
+    font-size: 9px;
     text-align: center;
-  
+
     transition: all .3s ease-out;
     opacity: 0;
     filter: blur(25px);
     transform: translateZ(0);
     will-change: transform;
-  
+
     .icon:hover & {
         transition: all .3s ease-out;
         opacity: 1;
@@ -325,3 +326,5 @@ nav .nav-wrapper {
         max-width: 100%;
     }
 }
+
+
