@@ -224,7 +224,7 @@ nav .nav-wrapper {
     height: auto;
     object-fit: cover;
 }
-
+@media only screen and (max-width: 768px) {
 .social-icons {
     max-width: 250px;
     margin: -100px auto 0; /* Ajuste a margem para reposicionar os ícones */
@@ -234,7 +234,7 @@ nav .nav-wrapper {
     left: 10%; /* Centralize horizontalmente */
     transform: translateX(-50%); /* Centralize completamente */
 }
-
+}
 
 
 
