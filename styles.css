@@ -321,4 +321,22 @@ nav .nav-wrapper {
 .icon--github a {
     background: url('https://benhodgson.net/img/social/github.svg') no-repeat;
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaçamento abaixo dos ícones */
+    flex-wrap: wrap; /* Garante que os ícones se alinhem corretamente em telas menores */
+}
 
+.social-icons img {
+    width: 40px; /* Tamanho dos ícones */
+    height: 40px; /* Altura dos ícones */
+    margin: 0 10px; /* Espaçamento horizontal entre os ícones */
+}
+
+@media (max-width: 576px) {
+    .social-icons img {
+        width: 30px; /* Tamanho reduzido dos ícones para telas muito pequenas */
+        height: 30px;
+    }
+}
