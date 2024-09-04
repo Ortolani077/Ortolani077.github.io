@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Rodrigo Ortolani</title>
+
+    <style>
+        /* Estilo para garantir que os ícones sejam exibidos corretamente */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 576px) {
+            .social-icons img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -16,18 +39,18 @@
             <div class='main'>
 
                 <!-- Redes sociais logo acima da imagem -->
-                <ul class="social-icons d-flex justify-content-center mb-3">
-                    <li class="mx-2">
+                <ul class="social-icons">
+                    <li>
                         <a href="https://www.linkedin.com/in/rodrigo-ortolani-367722b4/" target="_blank">
                             <img src="linkedin-icon.png" alt="LinkedIn" />
                         </a>
                     </li>
-                    <li class="mx-2">
+                    <li>
                         <a href="https://www.instagram.com/ortolani_/" target="_blank">
                             <img src="instagram-icon.png" alt="Instagram" />
                         </a>
                     </li>
-                    <li class="mx-2">
+                    <li>
                         <a href="https://github.com/Ortolani077" target="_blank">
                             <img src="github-icon.png" alt="GitHub" />
                         </a>
